@@ -1,4 +1,4 @@
-# 1일 1 커밋 시작하는 날!
+# Today I Learned
 
 
 ## 1. android
