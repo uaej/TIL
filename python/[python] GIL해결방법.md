@@ -15,6 +15,7 @@
 > 1부터 20000000까지 더하는 프로그램
 
 <li> single thread
+
     from threading import Thread
     import time
 
@@ -64,7 +65,8 @@
     print ("Result : ", sum(result))
     print("Time : ", (end_time - start_time))
 
-    <li> multi processor
+<li> multi processor
+
     from multiprocessing import Process, Queue
     import time
 
