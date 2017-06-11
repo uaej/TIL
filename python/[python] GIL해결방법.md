@@ -3,10 +3,12 @@
 ## 1. 문제점
 파이썬에서 멀티 스레드를 사용하면 싱글 스레드보다 속도가 느리다!
 왜? 한번에 한개의 전역변수에 접근할 수 있도록 하는 GIL 때문.
+
 ![GIL_problem](/image/python_thread_problem.JPG)
 
 ## 2. 해결방법
 멀티 스레드 대신에 멀티 프로세스를 사용한다.
+
 ![GIL_solve](/image/python_thread_solve.JPG)
 
 ## 3. 소스코드
