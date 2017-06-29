@@ -19,5 +19,7 @@ fork를 이용해 자식 프로세스를 생성했을 때, wait()를 사용하�
 
     pid_t wait(int *status);
 
+
 ## 출처
 <li> http://hunj.me/using_fork/
+<li>https://www.joinc.co.kr/w/man/2/wait
