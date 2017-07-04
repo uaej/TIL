@@ -37,10 +37,14 @@
 
 <해결방법>
 
-<li> **크리티컬 섹션 동기화 방식**
+<li> 크리티컬 섹션 동기화 방식
 : 어떤 값에 대한 사용이 끝나기 전까지는 그 값을 사용하려는 다른 스레드가 멈춰있게 함으로써 그 값의 신빙성을 유지한다.
-<li> 그 외에도 ** 이벤트, 세마포어, 뮤텍스 **등을 이용한 동기화 방식들이 있다.
+<li> 그 외에도 이벤트, 세마포어, 뮤텍스 등을 이용한 동기화 방식들이 있다.
 
+## 3. 스레드 컴파일 in C
+    gcc -o thread_test thread_test.c -pthread
+
+`-pthread`옵션이 꼭 있어야 함!!
 ## 출처
 <li>http://elky.tistory.com/197
 <li>http://www.geeksforgeeks.org/multithreading-c-2/
