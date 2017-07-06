@@ -45,7 +45,25 @@
     gcc -o thread_test thread_test.c -pthread
 
 `-pthread`옵션이 꼭 있어야 함!!
+
+## 4. 스레드 자원 공유 상태
+
+<li> 스레드 간에 서로 공유하는 자원
+- 작업디렉토리
+- 파일지시자들
+- 대부분의 전역변수와 데이타들
+- UID 와 GID
+- signal
+
+<li>각각의 쓰레드가 고유하게 가지는 자원
+- 에러번호(errno)
+- 쓰레드 우선순위
+- 스택
+- 쓰레드 ID
+- 레지스터 및 스택지시자
+
 ## 출처
 <li>http://elky.tistory.com/197
 <li>http://www.geeksforgeeks.org/multithreading-c-2/
 <li>http://guswnsla1223.tistory.com/70
+<li>https://www.joinc.co.kr/w/Site/Thread/Beginning/WhatThread
