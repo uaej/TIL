@@ -14,16 +14,27 @@
 
 ## 명령어
 <li> 패키지 검색
+
     pip search [key_word]
+
 <li> 패키지 설치
+
     pip isntall [package]
+
 <li> 패키지 삭제
+
     pip uninstall [package]
+
 <li>패키지 업데이트
+
     pip install --upgrade [package]
+
 <li> 설치된 패키지 확인
+
     pip show pip
+    
 <li> 설치된 전체 패키지 확인
+
     pip list
 
 ## 출처
