@@ -5,7 +5,8 @@
     cd /etc/wpa-supplicant/wpa-supplicant.conf
 
 # 2. 설정하는 방법
-    <li> wpa-psk 암호화 방식일때 - 일반적인 wifi 암호화 방식인 듯 하다
+<li> wpa-psk 암호화 방식일때 - 일반적인 wifi 암호화 방식인 듯 하다
+
         network={
             ssid="networkName"
             key_mgmt=WPA-PSK
