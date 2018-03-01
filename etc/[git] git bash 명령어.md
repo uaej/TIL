@@ -16,11 +16,18 @@
 ## 4. 확정(commit)
     git commit -m "commit message"
 
+
 ## 5. 변경내용 발행(push)
-    git push origin master(혹은 branch이름)
+
+    git push origin master(혹은 branch이름)s
 
     git remote add origin <원격 서버 주소>
-    =>기존의 원격 서버를 복사한 것이lear 아닐때
+    =>기존의 원격 서버를 복사한 것이 아닐때
+--------------------
+## 6. commit 목록 확인
+git log --branches --not --remotes
+git status
 
-## 6. 출처
+## 출처
 <li> https://rogerdudler.github.io/git-guide/index.ko.html
+<li> https://blog.outsider.ne.kr/820
